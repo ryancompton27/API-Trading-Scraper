@@ -1,4 +1,5 @@
 import './App.css'
+import BeginnerAdviceApp from './Components/BeginnerAdvicePage'
 import InvestAdviceApp from './Components/InvestAdviceApp'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <>
       <div>
         <InvestAdviceApp />
-
+        {/*<BeginnerAdviceApp />*/}
       </div>
     </>
   )
