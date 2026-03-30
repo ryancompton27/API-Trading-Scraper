@@ -1,14 +1,16 @@
 import './App.css'
 import BeginnerAdviceApp from './Components/BeginnerAdvicePage'
 import InvestAdviceApp from './Components/InvestAdviceApp'
+import InvestAdviceStocks from './Components/InvestAdviceStocks'
 
 function App() {
 
   return (
     <>
       <div>
-        <InvestAdviceApp />
+        {/*<InvestAdviceApp />*/}
         {/*<BeginnerAdviceApp />*/}
+        <InvestAdviceStocks />
       </div>
     </>
   )
