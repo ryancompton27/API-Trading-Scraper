@@ -41,7 +41,7 @@
   color: #888;
 }
 
-.beginner-advice-title {
+.beginner-advice-title, .stock-research-title {
   background-color: #1E3A8A;
   color: white;
   text-align: center;
@@ -50,9 +50,20 @@
   margin: 0;
 }
 
-.beginner-advice-links-text {
+.stock-research-title {
+  border-bottom: 8px solid black;
+}
+
+.beginner-advice-links-text, .stock-research-blurb {
   background: #DBEAFE;
   color: #1E293B;
+}
+
+.stock-research-page {
+  background-color: #F5F7FA;
+  border: 6px solid black; 
+  padding: none;
+  margin: 0;
 }
 
 .beginner-advice-section {
