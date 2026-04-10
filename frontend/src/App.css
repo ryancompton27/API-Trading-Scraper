@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+/* making body not flex so navbar is at the top*/
+body{
+  display: inline;
+}
+
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -41,40 +48,3 @@
   color: #888;
 }
 
-.beginner-advice-title, .stock-research-title {
-  background-color: #1E3A8A;
-  color: white;
-  text-align: center;
-  border: 6px solid black;
-  padding: none;
-  margin: 0;
-}
-
-.stock-research-title {
-  border-bottom: 8px solid black;
-}
-
-.beginner-advice-links-text, .stock-research-blurb {
-  background: #DBEAFE;
-  color: #1E293B;
-}
-
-.stock-research-page {
-  background-color: #F5F7FA;
-  border: 6px solid black; 
-  padding: none;
-  margin: 0;
-}
-
-.beginner-advice-section {
-  background-color: #F5F7FA;
-  text-align: left;
-  border: 6px solid black; 
-  padding: none;
-  margin: 0;
-}
-
-.beginner-advice-links {
-   color: #111827;
-   background-color: #ffff;
-}
