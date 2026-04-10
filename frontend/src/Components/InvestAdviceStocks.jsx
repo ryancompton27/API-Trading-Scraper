@@ -26,6 +26,7 @@ export default function InvestAdviceStocks() {
 */
 
 import { useState } from "react";
+import Navbar from "./Navbar";
 
 export default function InvestAdviceStocks() {
   const [stockData, setStockData] = useState("");
@@ -68,7 +69,9 @@ export default function InvestAdviceStocks() {
   };
 
   return (
+    
     <div class="stock-research-page">
+      < Navbar />
         <div class="stock-research-title">
         	<h1>Stocks Research Page</h1>
     	</div>

@@ -1,9 +1,10 @@
 
-
+import Navbar from "./Navbar"
 export default function BeginnerAdviceApp() {
     return (
         <div>
             <div class="beginner-advice-title">
+                < Navbar />
                 <h1>Beginner Articles Page</h1>
             </div>
             <div class="beginner-advice-section">
