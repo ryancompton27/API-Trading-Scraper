@@ -1,0 +1,27 @@
+{
+  "name": "api-trading-scraper",
+  "version": "1.0.0",
+  "description": "Problem we're looking to solve - Helping beginners understand the stock market/investing options better.\r Aim - to increase financial literacy for anyone interested.\r Approach - utilizing a web scraper to gather investing advice and send information to the website that will provide advice and insight into where that advice is coming from. Hoping to have beginner articles, investing/stock advice and a home page to introduce it all.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryancompton27/API-Trading-Scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ryancompton27/API-Trading-Scraper/issues"
+  },
+  "homepage": "https://github.com/ryancompton27/API-Trading-Scraper#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "openai": "^6.33.0"
+  }
+}
