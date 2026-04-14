@@ -14,7 +14,7 @@ db.prepare(
 CREATE TABLE IF NOT EXISTS analysis (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     summary TEXT,
-    recommendation TEXT
+    recommendation TEXT 
 )
 `,
 ).run();
@@ -27,15 +27,17 @@ CREATE TABLE IF NOT EXISTS analysis (
 app.use(cors());
 app.use(express.json());
 
-app.get("/analysis", (req, res) => {
+app.get("/scraper", (req, res) => {
   const rows = db.prepare(`SELECT * FROM analysis`).all();
   console.log("DATA:", rows);
   res.json(rows);
 });
 
-app.post("/analyze", async (req, res) => {
+app.post("/scraper", async (req, res) => {
   try {
     const stockData = req.body.data;
+
+    console.log(stockData);
 
     const response = await openai.chat.completions.create({
       model: "gpt-4o-mini",
