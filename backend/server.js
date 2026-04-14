@@ -27,13 +27,13 @@ CREATE TABLE IF NOT EXISTS analysis (
 app.use(cors());
 app.use(express.json());
 
-app.get("/scraper", (req, res) => {
+app.get("/analyze", (req, res) => {
   const rows = db.prepare(`SELECT * FROM analysis`).all();
   console.log("DATA:", rows);
   res.json(rows);
 });
 
-app.post("/scraper", async (req, res) => {
+app.post("/analyze", async (req, res) => {
   try {
     const stockData = req.body.data;
 
